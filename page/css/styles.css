@@ -1,0 +1,51 @@
+.landing-hero{
+    height: 250px;
+    padding: 60px 0 60px 0;
+}
+
+.bg-dark{
+    background-color: #333;
+}
+
+.title{
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.text{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.btn--primary{
+    background-color: #49b970;
+    color: white;
+    border: none;
+}
+
+.btn{
+    font-family: sans-serif;
+    position: relative;
+    z-index: 2;
+    font-size: 12px;
+    width: 170px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: color .15s ease-in-out,background-color 
+    .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    vertical-align: middle;
+    DISPLAY: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
