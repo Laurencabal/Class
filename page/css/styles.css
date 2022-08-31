@@ -100,3 +100,17 @@
     color: #49b970;
     transition: all .35s;
 }
+
+.footer{
+    color: #fff;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.footer .container .row .text--center .footer--copyright{
+    color: #999;
+    font-family: sans-serif;
+    font-weight: 400px;
+    line-height: 1;
+    text-transform: capitalize;
+}
