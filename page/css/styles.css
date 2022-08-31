@@ -1,3 +1,11 @@
+.body{
+    font-family: ubuntu,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaa;
+    line-height: 1.5
+}
+
 .landing-hero{
     height: 250px;
     padding: 60px 0 60px 0;
@@ -48,4 +56,47 @@
     padding-bottom: 15px;
     border-radius: 50px;
     text-decoration: none;
+}
+
+.portafolio-demos{
+    padding: 60px 0 70px 0;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolio-item{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
+
+.portfolio-item .portafolio-img img{
+    width: 100%;
+}
+
+.portfolio-item .portafolio-img:hover{
+    transform: translateY(-10px);
+    transition: all .35s;
+}
+
+.portafolio-title{
+    color: #282828;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.portafolio-title:hover{
+    color: #49b970;
+    transition: all .35s;
 }
